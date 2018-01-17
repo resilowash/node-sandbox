@@ -6,5 +6,5 @@ const textOut = text => {
   textOut("Hello");
 })();
 
-//annonymous function with iife syntax calling it immediately after creation. 
+//annonymous function with iife syntax calling it immediately after creation. .
 //textOut("hello");
