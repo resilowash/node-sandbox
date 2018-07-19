@@ -15,3 +15,8 @@ console.log('value as number of empty string = ', parseInt(emptyStr));
 
 let nullvar = null;
 console.log('value as number of null = ', parseInt(nullvar));
+
+
+let notTrue = () => {
+
+}
