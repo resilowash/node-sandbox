@@ -9,6 +9,7 @@ console.log("your generated salt utf8: ", salt.toString('utf8') );
 
 //salt the password
 password = salt.toString('base64') + password;
-let hashedPassword = bcrypt.hashSync(password, 10);
+//let hashedPassword = bcrypt.hashSync(password, 10);
+let hashedPassword = bcrypt.hashSync(password, salt.toString('base64'));
 
 console.log('Salted Hashed Password: ', hashedPassword);
